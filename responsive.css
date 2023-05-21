@@ -1,0 +1,47 @@
+@media screen and (min-width: 800px){
+
+  .container{
+    display: flex;
+    width: 736px;
+    position: relative;
+    border-radius: 32px;
+    
+  
+  }
+  
+  .box {
+    height: 512px;
+    border-radius: 32px;
+  }
+
+  .header {
+    margin-top: 100px;
+  }
+
+  .result {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-270%);
+
+  }
+
+  .bottom {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .button {
+     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+     margin-top: 60px;
+    
+     
+  }
+
+  .text-great {
+    font-size: 50px;
+  }
+
+
+
+}
